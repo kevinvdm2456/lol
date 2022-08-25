@@ -1,0 +1,270 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Teleports = Instance.new("ScrollingFrame")
+local cafe = Instance.new("TextButton")
+local pharmacy = Instance.new("TextButton")
+local backexit = Instance.new("TextButton")
+local mainentrance = Instance.new("TextButton")
+local security = Instance.new("TextButton")
+local foodstands = Instance.new("TextButton")
+local hotel = Instance.new("TextButton")
+local staffroom = Instance.new("TextButton")
+local SHRspawn = Instance.new("TextButton")
+local mainstore = Instance.new("TextButton")
+local spawn1 = Instance.new("TextButton")
+local spawn2 = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+
+ScreenGui.Parent = game:GetService("CoreGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Teleports.Name = "Teleports"
+Teleports.Parent = ScreenGui
+Teleports.Active = true
+Teleports.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Teleports.Position = UDim2.new(0.424999982, 0, 0.211981565, 0)
+Teleports.Size = UDim2.new(0, 150, 0, 250)
+Teleports.Visible = false
+
+cafe.Name = "cafe"
+cafe.Parent = Teleports
+cafe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cafe.Size = UDim2.new(0, 137, 0, 30)
+cafe.Font = Enum.Font.SourceSans
+cafe.Text = "cafe"
+cafe.TextColor3 = Color3.fromRGB(0, 0, 0)
+cafe.TextSize = 14.000
+
+pharmacy.Name = "pharmacy"
+pharmacy.Parent = Teleports
+pharmacy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pharmacy.Position = UDim2.new(0, 0, 0.0336342268, 0)
+pharmacy.Size = UDim2.new(0, 137, 0, 30)
+pharmacy.Font = Enum.Font.SourceSans
+pharmacy.Text = "pharmacy"
+pharmacy.TextColor3 = Color3.fromRGB(0, 0, 0)
+pharmacy.TextSize = 14.000
+
+backexit.Name = "backexit"
+backexit.Parent = Teleports
+backexit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+backexit.Position = UDim2.new(0, 0, 0.0680000037, 0)
+backexit.Size = UDim2.new(0, 137, 0, 30)
+backexit.Font = Enum.Font.SourceSans
+backexit.Text = "backexit"
+backexit.TextColor3 = Color3.fromRGB(0, 0, 0)
+backexit.TextSize = 14.000
+
+mainentrance.Name = "mainentrance"
+mainentrance.Parent = Teleports
+mainentrance.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mainentrance.Position = UDim2.new(0, 0, 0.101999998, 0)
+mainentrance.Size = UDim2.new(0, 137, 0, 30)
+mainentrance.Font = Enum.Font.SourceSans
+mainentrance.Text = "mainentrance"
+mainentrance.TextColor3 = Color3.fromRGB(0, 0, 0)
+mainentrance.TextSize = 14.000
+
+security.Name = "security"
+security.Parent = Teleports
+security.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+security.Position = UDim2.new(0, 0, 0.136000007, 0)
+security.Size = UDim2.new(0, 137, 0, 30)
+security.Font = Enum.Font.SourceSans
+security.Text = "security"
+security.TextColor3 = Color3.fromRGB(0, 0, 0)
+security.TextSize = 14.000
+
+foodstands.Name = "foodstands"
+foodstands.Parent = Teleports
+foodstands.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+foodstands.Position = UDim2.new(0, 0, 0.170000002, 0)
+foodstands.Size = UDim2.new(0, 137, 0, 30)
+foodstands.Font = Enum.Font.SourceSans
+foodstands.Text = "foodstands"
+foodstands.TextColor3 = Color3.fromRGB(0, 0, 0)
+foodstands.TextSize = 14.000
+
+hotel.Name = "hotel"
+hotel.Parent = Teleports
+hotel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hotel.Position = UDim2.new(0, 0, 0.203999996, 0)
+hotel.Size = UDim2.new(0, 137, 0, 30)
+hotel.Font = Enum.Font.SourceSans
+hotel.Text = "hotel"
+hotel.TextColor3 = Color3.fromRGB(0, 0, 0)
+hotel.TextSize = 14.000
+
+staffroom.Name = "staffroom"
+staffroom.Parent = Teleports
+staffroom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+staffroom.Position = UDim2.new(0, 0, 0.238000005, 0)
+staffroom.Size = UDim2.new(0, 137, 0, 30)
+staffroom.Font = Enum.Font.SourceSans
+staffroom.Text = "staffroom"
+staffroom.TextColor3 = Color3.fromRGB(0, 0, 0)
+staffroom.TextSize = 14.000
+
+SHRspawn.Name = "SHRspawn"
+SHRspawn.Parent = Teleports
+SHRspawn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SHRspawn.Position = UDim2.new(0, 0, 0.272000015, 0)
+SHRspawn.Size = UDim2.new(0, 137, 0, 30)
+SHRspawn.Font = Enum.Font.SourceSans
+SHRspawn.Text = "SHRspawn"
+SHRspawn.TextColor3 = Color3.fromRGB(0, 0, 0)
+SHRspawn.TextSize = 14.000
+
+mainstore.Name = "mainstore"
+mainstore.Parent = Teleports
+mainstore.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mainstore.Position = UDim2.new(0, 0, 0.305999994, 0)
+mainstore.Size = UDim2.new(0, 137, 0, 30)
+mainstore.Font = Enum.Font.SourceSans
+mainstore.Text = "mainstore"
+mainstore.TextColor3 = Color3.fromRGB(0, 0, 0)
+mainstore.TextSize = 14.000
+
+spawn1.Name = "spawn1"
+spawn1.Parent = Teleports
+spawn1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+spawn1.Position = UDim2.new(0, 0, 0.340000004, 0)
+spawn1.Size = UDim2.new(0, 137, 0, 30)
+spawn1.Font = Enum.Font.SourceSans
+spawn1.Text = "spawn1"
+spawn1.TextColor3 = Color3.fromRGB(0, 0, 0)
+spawn1.TextSize = 14.000
+
+spawn2.Name = "spawn2"
+spawn2.Parent = Teleports
+spawn2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+spawn2.Position = UDim2.new(0, 0, 0.374000013, 0)
+spawn2.Size = UDim2.new(0, 137, 0, 30)
+spawn2.Font = Enum.Font.SourceSans
+spawn2.Text = "spawn2"
+spawn2.TextColor3 = Color3.fromRGB(0, 0, 0)
+spawn2.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = Teleports
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.Position = UDim2.new(-0.000666677952, 0, 0.407834023, 0)
+Close.Size = UDim2.new(0, 40, 0, 40)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.Position = UDim2.new(0.00600000005, 0, 0.094470039, 0)
+Open.Size = UDim2.new(0, 40, 0, 40)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextSize = 14.000
+
+local script = Instance.new('LocalScript', Teleports)
+
+local UserInputService = game:GetService("UserInputService")
+	
+local gui = script.Parent
+	
+local dragging
+local dragInput
+local dragStart
+local startPos
+	
+local function update(input)
+	local delta = input.Position - dragStart
+	gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+end
+	
+gui.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = gui.Position
+	
+		input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end)
+	end
+end)
+	
+gui.InputChanged:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		dragInput = input
+	end
+end)
+	
+UserInputService.InputChanged:Connect(function(input)
+	if input == dragInput and dragging then
+		update(input)
+	end
+end)
+
+local script = Instance.new('LocalScript', ScreenGui)
+
+Open.MouseButton1Click:Connect(function()
+	Teleports.Visible = true
+	Open.Visible = false 
+end)
+	
+Close.MouseButton1Click:Connect(function()
+	Teleports.Visible = false
+	Open.Visible = true
+end)
+	
+local Humanoid = game.Players.LocalPlayer.Character.HumanoidRootPart
+	
+cafe.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-121.288, 3.9897, -293.574)
+end)
+	
+pharmacy.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-63.8773, 3.98969, -371.615)
+end)
+	
+backexit.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-11.2708902, 3.98969793, -369.569916)
+end)
+	
+mainentrance.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-22.6443, 4.02484, 1.94085)
+end)
+	
+security.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-35.4696, 3.9897, -36.1694)
+end)
+	
+foodstands.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-11.6512, 4.02485, 42.4098)
+end)
+	
+hotel.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-97.7042, 4.02485, 44.7391)
+end)
+	
+staffroom.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-148.662, 3.9897, -24.1777)
+end)
+	
+SHRspawn.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-98.7821, 4.02485, 208.584)
+end)
+	
+mainstore.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-79.3891, 3.9897, -186.336)
+end)
+	
+spawn1.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-16.0506, 4.02485, 180.375)
+end)
+	
+spawn2.MouseButton1Click:Connect(function()
+	Humanoid.CFrame = CFrame.new(-96.3723, 4.02485, 80.7076)
+end)
